@@ -10,7 +10,6 @@ def contar_unos_y_ceros(binario):
     return unos, ceros
 
 
-# Ejemplo de uso
 binario = "11000110101"
 unos, ceros = contar_unos_y_ceros(binario)
 print(f"El número binario {binario} tiene {unos} unos y {ceros} ceros")
